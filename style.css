@@ -45,3 +45,20 @@ body{
     font-weight: 700;
 }
 
+.ham-burger{
+    display: none;
+}
+
+
+/* banner styles */
+.explore-container{
+    width: 80%;
+    margin: 3rem auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(Images/Group\ 13\ \(1\)\ \(1\).png)
+}
+
+.explore{
+    text-align: center;
+   padding: 7rem 0;
+}
+
