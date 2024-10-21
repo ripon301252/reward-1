@@ -54,11 +54,54 @@ body{
 .explore-container{
     width: 80%;
     margin: 3rem auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(Images/Group\ 13\ \(1\)\ \(1\).png)
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    text-align: center;
+    padding: 6rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+   
+
 }
 
-.explore{
-    text-align: center;
-   padding: 7rem 0;
+.explore h1{
+    color: #ffffff;
+    font-size: 50px;
+     
+ }
+
+.explore p{
+   color: #ffffff;
+   font-size: 15px;
+   padding-top: 30px;
+   padding-bottom: 40px;
+}
+
+.travel-inputs{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline;
+    padding: .8rem;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.travel-inputs select, button{
+    margin-left: 15px;
+}
+
+.travel-inputs input, select, button{
+    width: 110px;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.travel-inputs button{
+    background-color: #e7512b;
+    color: #ffffff;
+    
+   
 }
 
